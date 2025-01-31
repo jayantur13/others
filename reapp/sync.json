@@ -218,7 +218,7 @@
     ]
   },
   {
-    "category": "Artists You Love",
+    "category": "Artists Exclusive",
     "stations": [
       {
         "name": "Kishore Kumar",
@@ -265,7 +265,7 @@
         "url": "https://streaming.exclusive.radio/er/eminem/icecast.audio"
       },
       {
-        "name": "Justin",
+        "name": "Justin Bieber",
         "url": "https://streaming.exclusive.radio/er/justinbieber/icecast.audio"
       },
       {
@@ -487,11 +487,11 @@
       },
       {
         "name": "Box UK Radio - danceradiouk.com",
-        "url": "http://boxstream.danceradiouk.com/listen.pls?sid=1"
+        "url": "http://boxstream.danceradiouk.com/;"
       },
       {
         "name": "Dance UK Radio - danceradiouk.com",
-        "url": "http://dancestream.danceradiouk.com/listen.pls?sid=1"
+        "url": "https://dancestream.danceradiouk.com/;"
       },
       {
         "name": "HearMe.fm - 2020-24",
@@ -544,7 +544,7 @@
       },
       {
         "name": "JHIP - KPOP/JPOP/CPOP",
-        "url": "https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://radio.jphip.com:8800/listen.pls&t=.m3u"
+        "url": "http://radio.jphip.com:8800/;"
       },
       {
         "name": "JPOP - Hara Sakura",
@@ -597,7 +597,7 @@
     ]
   },
   {
-    "category": "Anime/Manga",
+    "category": "Anime Music",
     "stations": [
       {
         "name": "Anime FM",
@@ -658,7 +658,7 @@
     ]
   },
   {
-    "category": "Devotional",
+    "category": "Devotional Music",
     "stations": [
       {
         "name": "Bhakti radio",
@@ -743,7 +743,7 @@
     ]
   },
   {
-    "category": "News/Extras",
+    "category": "Other than music",
     "stations": [
       {
         "name": "Aaj Tak",
