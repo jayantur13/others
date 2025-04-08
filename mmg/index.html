@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merge Mayhem: Game Info</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #1e1e2f;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #f5f5f5;
+    }
+
+    .game-header {
+      background: linear-gradient(135deg, #8a2387, #e94057, #f27121);
+      color: white;
+    }
+
+    .section-title {
+      color: #ffd369;
+      border-bottom: 2px solid #ffd369;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #ffd369;
+    }
+
+    a:hover {
+      color: #fcbf49;
+    }
+
+    footer {
+      background-color: #121212;
+    }
+
+    .container {
+      background-color: #2d2d44;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="game-header text-center py-4">
+    <h1>Merge Mayhem</h1>
+    <p>Terms and Conditions | Privacy Policy | Open Source Libraries</p>
+  </header>
+
+  <main class="container my-5">
+    <!-- Terms and Conditions -->
+    <section class="mb-5">
+      <h2 class="section-title">Terms and Conditions</h2>
+      <p>
+        By using Merge Mayhem, you agree to the following terms:
+      </p>
+      <ul>
+        <li>Merge Mayhem is a casual puzzle game intended for entertainment purposes only.</li>
+        <li>All in-game assets and progress are stored locally on your device unless otherwise stated.</li>
+        <li>Advertisements may be shown to support development and keep the app free for users.</li>
+      </ul>
+    </section>
+
+    <!-- Privacy Policy -->
+    <section class="mb-5">
+      <h2 class="section-title">Privacy Policy</h2>
+      <p>
+        We respect your privacy and do not collect any personal information through Merge Mayhem.
+      </p>
+      <ul>
+        <li>No tracking of user activity occurs within the game.</li>
+        <li>Ad partners may use anonymized data for ad targeting. Please refer to their policies.</li>
+        <li>No account login or cloud sync is required or provided.</li>
+      </ul>
+    </section>
+
+    <!-- Open Source Libraries -->
+    <section class="mb-5">
+      <h2 class="section-title">Open Source Libraries</h2>
+      <p>This game uses the following open-source libraries and tools:</p>
+      <ul>
+        <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a> - For layout and responsiveness.</li>
+        <li><a href="https://flutter.dev/" target="_blank">Flutter</a> - For base of the game.</li>
+        <li><a href="https://pub.dev/packages/flame" target="_blank">Flame</a> - Game engine.</li>
+        <li><a href="https://pub.dev/packages/flame_audio" target="_blank">Flame Audio</a> - For audio inside game.</li>
+        <li><a href="https://pub.dev/packages/flame_splash_screen" target="_blank">Flame Splash Screen</a> - For splash branding.</li>
+         <li><a href="https://pub.dev/packages/oktoast" target="_blank">oktoast</a> - For native like android toast.</li>
+         <li><a href="https://pub.dev/packages/animate_do" target="_blank">animate_do</a> - For animation in game.</li>
+         <li><a href="https://pub.dev/packages/url_launcher" target="_blank">url_launcher</a> - For android intents.</li>
+         <li><a href="https://pub.dev/packages/google_mobile_ads" target="_blank">google_mobile_ads</a> - For mobile ads (AdMob).</li>
+          <li><a href="https://pub.dev/packages/shared_preferences" target="_blank">shared_preferences</a> - For storing data in device.</li>
+           <li><a href="https://pub.dev/packages/share_plus" target="_blank">share_plus</a> - For send action intent android.</li>
+                <li>
+          <a href="https://pub.dev/packages/path_provider" target="_blank">path_provider</a>
+          - For getting file path.
+        </li>
+        <li>
+          <a href="https://pub.dev/packages/permission_handler" target="_blank">permission_handler</a>
+          - For asking user necessary device permissions.
+        </li>
+         <li>
+          <a href="https://pub.dev/packages/package_info_plus" target="_blank">package_info_plus</a>
+          - For showing build number, version etc.
+        </li>
+        <li>
+          <a href="https://icon.kitchen/" target="_blank">Icon Kitchen</a>
+          - App Logo.
+        </li>
+        <li>
+          <a href="https://pub.dev/packages/background_fetch" target="_blank">background fetch</a> - For scheduling
+          background tasks.
+        </li>
+        <li>
+          <a href="https://pub.dev/packages/flutter_lints" target="_blank">flutter_lints</a> - For good coding practise.
+        </li>
+         <li>
+          <a href="https://pub.dev/packages/awesome_notifications" target="_blank">awesome_notificatios</a> - For local notifcations.
+        </li>
+        <li><a href="https://pixabay.com/users/cyberwave-orchestra-23801316/" target="_blank">Cyberwave-Orchestra</a> - Background music </li>
+          <li><a href="https://mixkit.co/free-sound-effects/game/" target="_blank">Mixkit</a> - Sound Effects </li>
+      </ul>
+    </section>
+
+    <!-- Advertisements -->
+    <section class="mb-5">
+      <h2 class="section-title">Advertisements</h2>
+      <p>
+        Merge Mayhem displays ads to help support ongoing development. Ad networks may collect limited, non-personal data to serve relevant ads. Refer to their individual privacy policies for more details.
+      </p>
+    </section>
+
+    <!-- Support -->
+    <section>
+      <h2 class="section-title">Support</h2>
+      <p>
+        Have feedback, suggestions, or issues? Reach out to us at
+        <a href="mailto:vu.vcareforu@gmail.com">vu.vcareforu@gmail.com</a>.<br />
+        Please include screenshots or clips for faster assistance.
+      </p>
+    </section>
+  </main>
+
+  <footer class="text-center text-white py-4">
+    <p>
+      &copy; <span id="year"></span> Merge Mayhem. All Rights Reserved.<br />
+      By InfernoTech | Jayant Navrange
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
