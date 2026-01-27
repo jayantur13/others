@@ -1,0 +1,954 @@
+[
+  {
+      "category": "All India Radio",
+      "stations": [
+          {
+              "name": "Vividh Bharati",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+          },
+          {
+              "name": "Air Raipur",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio118/playlist.m3u8"
+          },
+          {
+              "name": "Air North",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio088/playlist.m3u8"
+          },
+          {
+              "name": "Air West",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio155/playlist.m3u8"
+          },
+          {
+              "name": "Air East",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio120/playlist.m3u8"
+          },
+          {
+              "name": "Air Shillong",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio161/playlist.m3u8"
+          },
+          {
+              "name": "Air Chennai",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio025/playlist.m3u8"
+          },
+          {
+              "name": "Air Kashmir",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio136/playlist.m3u8"
+          },
+          {
+              "name": "Air Agra",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio059/playlist.m3u8"
+          },
+          {
+              "name": "Air AhmedNagar",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio019/playlist.m3u8"
+          },
+          {
+              "name": "Air Almora",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio122/playlist.m3u8"
+          },
+          {
+              "name": "Air Bhopal",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio212/playlist.m3u8"
+          },
+          {
+              "name": "Air FM Rainbow Kochi",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio044/playlist.m3u8"
+          },
+          {
+              "name": "Air Kothagudem",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio116/playlist.m3u8"
+          },
+          {
+              "name": "Air Markapur",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio039/playlist.m3u8"
+          },
+          {
+              "name": "Air Nanded",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio072/playlist.m3u8"
+          },
+          {
+              "name": "Air Nizamabad",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio222/playlist.m3u8"
+          },
+          {
+              "name": "Air Patna",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio087/playlist.m3u8"
+          },
+          {
+              "name": "Air Prayagraj",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio125/playlist.m3u8"
+          },
+          {
+              "name": "Air Hyderabad",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio032/playlist.m3u8"
+          },
+          {
+              "name": "Air Amrutha Varshini",
+              "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio028/hlspbaudio02864kbps.m3u8"
+          },
+          {
+              "name": "Air Manjeri FM",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio101/playlist.m3u8"
+          },
+          {
+              "name": "Air Visakhapatnam",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio080/playlist.m3u8"
+          },
+          {
+              "name": "Air Punjabi",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/playlist.m3u8"
+          },
+          {
+              "name": "Akashwani Dharamsala",
+              "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio165/playlist.m3u8"
+          },
+          {
+              "name": "Akashwani FM Gold",
+              "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8"
+          },
+          {
+              "name": "Akashwani Marathi",
+              "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio010/hlspbaudio01064kbps.m3u8"
+          }
+      ]
+  },
+  {
+      "category": "Indian Variety Music",
+      "stations": [
+          {
+              "name": "Diverse FM",
+              "url": "https://carol.epichosts.co.uk:8570/;"
+          },
+          {
+              "name": "Radio Olive",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_OLIVE_CLUB_S04AAC.aac"
+          },
+          {
+              "name": "Radio Nyra",
+              "url": "https://streams.radio.co/s8d06d0298/listen"
+          },
+          {
+              "name": "Red FM",
+              "url": "https://funasia.streamguys1.com/live9"
+          },
+          {
+              "name": "Bollywood Love",
+              "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+          },
+          {
+              "name": "Bollywood Punjabi",
+              "url": "https://stream.zeno.fm/1k0y9f0cm0quv"
+          },
+          {
+              "name": "Bollywood Mix",
+              "url": "https://drive.uber.radio/uber/bollywoodmix/icecast.audio"
+          },
+          {
+              "name": "Bollywood Now",
+              "url": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio"
+          },
+          {
+              "name": "2010s Songs",
+              "url": "https://drive.uber.radio/uber/bollywood2010s/icecast.audio"
+          },
+          {
+              "name": "Bollywood Workout",
+              "url": "https://drive.uber.radio/uber/bollywoodworkout/icecast.audio"
+          },
+          {
+              "name": "Bollywood Diwali",
+              "url": "https://drive.uber.radio/uber/bollywooddiwali/icecast.audio"
+          },
+          {
+              "name": "Spotify Bollywood",
+              "url": "https://drive.uber.radio/uber/sportifybollywood/icecast.audio"
+          },
+          {
+              "name": "Bollywood Sad Songs",
+              "url": "https://stream-150.zeno.fm/yvqymrxdxi7vv?zs=mZUru5oLQxmUANF8TayjdQ"
+          },
+          {
+              "name": "Hindi Desi Bollywood Evergreen Hits",
+              "url": "http://cast2.asurahosting.com:8569/stream"
+          },
+          {
+              "name": "Retro Bollywood",
+              "url": "https://stream-142.zeno.fm/g372rxef798uv?zs=zKnPij6mQ2-i-51tQ2dLFA"
+          },
+          {
+              "name": "Best of Bollywood 90'S",
+              "url": "https://stream-141.zeno.fm/u0hrd3xkzhhvv?zs=--jfKarhQ-K5zHGC77B-ZA"
+          },
+          {
+              "name": "Radio City Hindi",
+              "url": "https://stream-147.zeno.fm/u7sgq72zrf9uv?zs=m9m_WJIBSdyZgnk0bK6t0A"
+          },
+          {
+              "name": "Radio Ishq",
+              "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+          },
+          {
+              "name": "Radio Mirchi Love",
+              "url": "https://drive.uber.radio/uber/lrbollywood/icecast.audio"
+          },
+          {
+              "name": "Radio Baadal",
+              "url": "https://stream-147.zeno.fm/nhrtcxg09u8uv?zs=iiYW0OmMRtWGmNv0IqRd8w"
+          },
+          {
+              "name": "Radio Zindagi - Ghazals",
+              "url": "http://us9.maindigitalstream.com:7409/;"
+          },
+          {
+              "name": "Radio Zindagi - Unplugged",
+              "url": "http://us9.maindigitalstream.com:7403/;"
+          },
+          {
+              "name": "Ghazal Radio London",
+              "url": "https://streaming.webhostnepal.com/8018/stream"
+          },
+          {
+              "name": "Bollywood 90'S Radio",
+              "url": "https://stream-149.zeno.fm/rm4i9pdex3cuv?zs=nywOJBPKQcKfapkqRzlJNg"
+          },
+          {
+              "name": "Bolly Hits",
+              "url": "http://hoth.alonhosting.com:1100/stream"
+          },
+          {
+              "name": "Bollywood Love",
+              "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+          },
+          {
+              "name": "Nostalgic Bollywood 90'S",
+              "url": "https://www.desizoneradio.com/relay3"
+          },
+          {
+              "name": "Hits Of Bollywood",
+              "url": "https://stream-140.zeno.fm/a2gyqzwpwfeuv?zs=ihNvr1ZGQHavUBr9frJ_AQ"
+          },
+          {
+              "name": "Radio Olive 2",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063.mp3"
+          },
+          {
+              "name": "Shudh Desi Radio",
+              "url": "https://s2.radio.co/se5e166e2f/listen#.mp3"
+          },
+          {
+              "name": "Tuned India Radio",
+              "url": "https://s2.radio.co/se5e166e2f/listen#.mp3"
+          },
+          {
+              "name": "Bombay Beats",
+              "url": "https://strmreg.1.fm/bombaybeats_mobile_mp3"
+          },
+          {
+              "name": "Radio Choklate",
+              "url": "https://stream.zeno.fm/u9744afb8gruv"
+          },
+          {
+              "name": "Radio Ala",
+              "url": "https://mahi.radioca.st/autodj"
+          },
+          {
+              "name": "Radio Khushi",
+              "url": "https://stream.zeno.fm/etf3x2h5rrhvv"
+          },
+          {
+              "name": "Radio Kissan",
+              "url": "https://radiosavre.com:8000/radio.mp3"
+          },
+          {
+              "name": "Radio Kochi",
+              "url": "https://streamasiacdn.atc-labs.com/radiokochi.aac"
+          },
+          {
+              "name": "Media Village",
+              "url": "https://443-1.autopo.st/183/stream"
+          },
+          {
+              "name": "Radio Rimjhim",
+              "url": "https://streamasiacdn.atc-labs.com/radiorimjhim.aac"
+          },
+          {
+              "name": "Radio Sharda",
+              "url": "https://stream.zeno.fm/1zg4ymqz72quv"
+          },
+          {
+              "name": "Radio Vishwas",
+              "url": "https://streamasiacdn.atc-labs.com/radiovishwas.aac"
+          },
+          {
+              "name": "Sarang",
+              "url": "https://sac-elearning.com/sarang"
+          },
+          {
+              "name": "Madhuban",
+              "url": "https://icecast.bkwsu.eu/radiomadhuban.mp3"
+          },
+          {
+              "name": "Mattoli",
+              "url": "https://cast1.my-control-panel.com/proxy/radiomattoli/stream"
+          },
+          {
+              "name": "Noida",
+              "url": "https://stream.zeno.fm/xbz9wlgsygyuv"
+          },
+          {
+              "name": "Bombay Hott",
+              "url": "https://ec5.yesstreaming.net:2555/stream"
+          },
+          {
+              "name": "Avatar Radio Seechewal",
+              "url": "https://radio.sanbroz.com/radio/8020/radio.mp3"
+          },
+          {
+              "name": "Gurgaon Ki Awaaz",
+              "url": "https://gurgaonradio.out.airtime.pro/gurgaonradio_a"
+          },
+          {
+              "name": "JU Radio",
+              "url": "https://stream.zeno.fm/60ef4p33vxquv"
+          },
+          {
+              "name": "MGM Radio",
+              "url": "https://streamasiacdn.atc-labs.com/mgmradio.aac"
+          }
+      ]
+  },
+  {
+      "category": "Artists Exclusive",
+      "stations": [
+          {
+              "name": "Kishore Kumar",
+              "url": "https://stream.zeno.fm/0ghtfp8ztm0uv"
+          },
+          {
+              "name": "Mukesh Kumar",
+              "url": "https://stream.zeno.fm/mrcz5sus1p8uv"
+          },
+          {
+              "name": "Mohammad Rafi Sahab",
+              "url": "https://stream.zeno.fm/6yqvumgfxtzuv"
+          },
+          {
+              "name": "Radio Lata Ji",
+              "url": "https://stream.zeno.fm/87xam8pf7tzuv"
+          },
+          {
+              "name": "A R Rahman",
+              "url": "https://drive.uber.radio/uber/bollywoodarrahman/icecast.audio"
+          },
+          {
+              "name": "Sonu Nigam",
+              "url": "https://drive.uber.radio/uber/bollywoodsonunigam/icecast.audio"
+          },
+          {
+              "name": "Shreya Ghosal",
+              "url": "https://drive.uber.radio/uber/bollywoodshreyaghosal/icecast.audio"
+          },
+          {
+              "name": "Arijit Singh",
+              "url": "https://drive.uber.radio/uber/bollywoodaruitsingh/icecast.audio"
+          },
+          {
+              "name": "Alka Yagnik",
+              "url": "https://drive.uber.radio/uber/bollywoodalkayagnik/icecast.audio"
+          },
+          {
+              "name": "Coldplay",
+              "url": "https://streaming.exclusive.radio/er/coldplay/icecast.audio"
+          },
+          {
+              "name": "Eminem",
+              "url": "https://streaming.exclusive.radio/er/eminem/icecast.audio"
+          },
+          {
+              "name": "Justin Bieber",
+              "url": "https://streaming.exclusive.radio/er/justinbieber/icecast.audio"
+          },
+          {
+              "name": "Beyonce",
+              "url": "https://streaming.exclusive.radio/er/beyonce/icecast.audio"
+          },
+          {
+              "name": "Adele",
+              "url": "https://streaming.exclusive.radio/er/adele/icecast.audio"
+          },
+          {
+              "name": "Beatles",
+              "url": "https://carina.streamerr.co/stream/8200"
+          },
+          {
+              "name": "Bruno Mars",
+              "url": "https://streaming.exclusive.radio/er/brunomars/icecast.audio"
+          },
+          {
+              "name": "Britney",
+              "url": "https://streaming.exclusive.radio/er/britney/icecast.audio"
+          },
+          {
+              "name": "Calvin Harris",
+              "url": "https://streaming.exclusive.radio/er/calvinharris/icecast.audio"
+          },
+          {
+              "name": "Drake",
+              "url": "https://streaming.exclusive.radio/er/drake/icecast.audio"
+          },
+          {
+              "name": "Ed Sheeran",
+              "url": "https://streaming.exclusive.radio/er/edsheeran/icecast.audio"
+          },
+          {
+              "name": "Elton John",
+              "url": "https://streaming.exclusive.radio/er/eltonjohn/icecast.audio"
+          },
+          {
+              "name": "SZA",
+              "url": "https://streaming.exclusive.radio/er/sza/icecast.audio"
+          },
+          {
+              "name": "Taylor Swift",
+              "url": "https://streaming.exclusive.radio/er/taylorswift/icecast.audio"
+          },
+          {
+              "name": "Sabrina Carpenter",
+              "url": "https://streaming.exclusive.radio/er/sabrinacarperpenter/icecast.audio"
+          },
+          {
+              "name": "Avicii",
+              "url": "https://streaming.exclusive.radio/er/avicii/icecast.audio"
+          },
+          {
+              "name": "Ariana Grande",
+              "url": "https://streaming.exclusive.radio/er/arianagrandehits/icecast.audio"
+          },
+          {
+              "name": "Backstreet Boys",
+              "url": "https://streaming.exclusive.radio/er/backstreetboys/icecast.audio"
+          },
+          {
+              "name": "Billie Ellish",
+              "url": "https://streaming.exclusive.radio/er/billyeilish/icecast.audio"
+          },
+          {
+              "name": "BTS",
+              "url": "https://streaming.exclusive.radio/er/bts/icecast.audio"
+          },
+          {
+              "name": "Camila Cabello",
+              "url": "https://streaming.exclusive.radio/er/camilacabello/icecast.audio"
+          },
+          {
+              "name": "Celine Dion",
+              "url": "https://streaming.exclusive.radio/er/celinedion/icecast.audio"
+          },
+          {
+              "name": "Dua Lipa",
+              "url": "https://streaming.exclusive.radio/er/dualipa/icecast.audio"
+          },
+          {
+              "name": "Ellie Goulding",
+              "url": "https://streaming.exclusive.radio/er/elliegoulding/icecast.audio"
+          },
+          {
+              "name": "Enrique Iglesias",
+              "url": "https://streaming.exclusive.radio/er/enriqueiglesias/icecast.audio"
+          },
+          {
+              "name": "Harry Styles",
+              "url": "https://streaming.exclusive.radio/er/harrystyles/icecast.audio"
+          },
+          {
+              "name": "Imagine Dragons",
+              "url": "https://streaming.exclusive.radio/er/imaginedragons/icecast.audio"
+          },
+          {
+              "name": "Jonas Brothers",
+              "url": "https://streaming.exclusive.radio/er/jonasbrothers/icecast.audio"
+          },
+          {
+              "name": "Kanye West",
+              "url": "https://streaming.exclusive.radio/er/kanyewest/icecast.audio"
+          },
+          {
+              "name": "Katy Perry",
+              "url": "https://streaming.exclusive.radio/er/katyperry/icecast.audio"
+          },
+          {
+              "name": "Kendrick Lamar",
+              "url": "https://streaming.exclusive.radio/er/kendricklamar/icecast.audio"
+          },
+          {
+              "name": "Lady Gaga",
+              "url": "https://streaming.exclusive.radio/er/ladygaga/icecast.audio"
+          },
+          {
+              "name": "Madonna",
+              "url": "https://streaming.exclusive.radio/er/madonna/icecast.audio"
+          },
+          {
+              "name": "Maroon 5",
+              "url": "https://streaming.exclusive.radio/er/maroon5/icecast.audio"
+          },
+          {
+              "name": "Micheal Jackson",
+              "url": "https://streaming.exclusive.radio/er/michaeljacksonhits/icecast.audio"
+          },
+          {
+              "name": "Miley Cryus",
+              "url": "https://streaming.exclusive.radio/er/mileycyrus/icecast.audio"
+          },
+          {
+              "name": "One direction",
+              "url": "https://streaming.exclusive.radio/er/onedirection/icecast.audio"
+          },
+          {
+              "name": "Post Malone",
+              "url": "https://streaming.exclusive.radio/er/postmalone/icecast.audio"
+          },
+          {
+              "name": "Rihanna",
+              "url": "https://streaming.exclusive.radio/er/rihanna/icecast.audio"
+          },
+          {
+              "name": "Shakira",
+              "url": "https://streaming.exclusive.radio/er/shakira/icecast.audio"
+          },
+          {
+              "name": "Shawn Mendes",
+              "url": "https://streaming.exclusive.radio/er/shawnmendes/icecast.audio"
+          },
+          {
+              "name": "Sia",
+              "url": "https://streaming.exclusive.radio/er/sia/icecast.audio"
+          },
+          {
+              "name": "The Weeknd",
+              "url": "https://streaming.exclusive.radio/er/theweeknd/icecast.audio"
+          },
+          {
+              "name": "Travis Scott",
+              "url": "https://streaming.exclusive.radio/er/travisscott/icecast.audio"
+          },
+          {
+              "name": "Twenty one pilots",
+              "url": "https://streaming.exclusive.radio/er/twentyonepilots/icecast.audio"
+          }
+      ]
+  },
+  {
+      "category": "English Music",
+      "stations": [
+          {
+              "name": "Power 105.1 FM",
+              "url": "https://stream.revma.ihrhls.com/zc1481"
+          },
+          {
+              "name": "Z100",
+              "url": "https://stream.revma.ihrhls.com/zc1469"
+          },
+          {
+              "name": "KIIS FM",
+              "url": "https://stream.revma.ihrhls.com/zc533"
+          },
+          {
+              "name": "fm Rock X",
+              "url": "http://185.33.21.112/x_128"
+          },
+          {
+              "name": "New Sounds",
+              "url": "http://iheart.wnyc.org/q2-tunein.aac"
+          },
+          {
+              "name": "SBS Chill",
+              "url": "https://sbs-ice.streamguys1.com/sbschill-sbs-web"
+          },
+          {
+              "name": "Smooth Chill",
+              "url": "https://media-ssl.musicradio.com/SmoothChill"
+          },
+          {
+              "name": "Smooth Chill 2",
+              "url": "http://media-the.musicradio.com/Chill"
+          },
+          {
+              "name": "movedahouse",
+              "url": "https://uk7.internet-radio.com/proxy/movedahouse?mp=/stream;n"
+          },
+          {
+              "name": "techo fm",
+              "url": "https://stream.techno.fm/radio1.mp3"
+          },
+          {
+              "name": "Revolution Radio",
+              "url": "https://revolutionradio.ru:8443/live.mp3"
+          },
+          {
+              "name": "Box UK Radio - danceradiouk.com",
+              "url": "http://boxstream.danceradiouk.com/;"
+          },
+          {
+              "name": "Dance UK Radio - danceradiouk.com",
+              "url": "https://dancestream.danceradiouk.com/;"
+          },
+          {
+              "name": "HearMe.fm - 2020-24",
+              "url": "https://radio.hearme.fm:8000/stream"
+          }
+      ]
+  },
+  {
+      "category": "Saranghae/Daisuki (大好き)",
+      "stations": [
+          {
+              "name": "KPOP",
+              "url": "https://listen.moe/kpop/stream"
+          },
+          {
+              "name": "Big B Radio - KPOP",
+              "url": "https://ais-sa3.cdnstream1.com/2630_128.mp3"
+          },
+          {
+              "name": "KPOP USA",
+              "url": "https://ico-1.streamhoster.com/lv_kpophrusa--broadcast1"
+          },
+          {
+              "name": "KPOP FAL",
+              "url": "https://listen.moe/kpop/fallback"
+          },
+          {
+              "name": "KPOP Hits",
+              "url": "https://stream.laut.fm/kpophits"
+          },
+          {
+              "name": "KPOP Radio PN",
+              "url": "https://stream.zeno.fm/stbkeky5d4duv"
+          },
+          {
+              "name": "KPOP 4 U",
+              "url": "https://stream.laut.fm/kpop4you"
+          },
+          {
+              "name": "KPOP Love",
+              "url": "https://stream.laut.fm/kpop-love"
+          },
+          {
+              "name": "Hotmix KPOP",
+              "url": "https://streaming.hotmixradio.fr/hotmix-k-pop-en-aac"
+          },
+          {
+              "name": "HanaPOP KPOP",
+              "url": "https://radio35.virtualtronics.com:20040/;"
+          },
+          {
+              "name": "JHIP - KPOP/JPOP/CPOP",
+              "url": "http://radio.jphip.com:8800/;"
+          },
+          {
+              "name": "JPOP - Hara Sakura",
+              "url": "https://cast1.torontocast.com/jsakura"
+          },
+          {
+              "name": "JPOP Suki Radio",
+              "url": "http://jpopsuki.fm:8000/autodj"
+          },
+          {
+              "name": "JPOP Powerplay Kawaii",
+              "url": "https://kathy.torontocast.com/kawaii"
+          },
+          {
+              "name": "Big B Radio - JPOP",
+              "url": "https://antares.dribbcast.com/proxy/jpop?mp=/s"
+          },
+          {
+              "name": "Calm Radio - JPOP",
+              "url": "https://streams.calmradio.com:21928/128/stream"
+          },
+          {
+              "name": "World Music Radio - JPOP",
+              "url": "https://streaming.exclusive.radio/er/jpop/icecast.audio"
+          },
+          {
+              "name": "Japan Hits - Asia Dream Radio",
+              "url": "https://cast1.torontocast.com:2120/;"
+          },
+          {
+              "name": "Friends Forever - JPOP 1",
+              "url": "https://s5.radio.co/s6140c7241/listen"
+          },
+          {
+              "name": "J Nation",
+              "url": "https://stream.laut.fm/j-nation"
+          },
+          {
+              "name": "J1 Gold",
+              "url": "https://jenny.torontocast.com:8062/;"
+          },
+          {
+              "name": "Box JPOP Radio",
+              "url": "https://stream.zeno.fm/kvve4ffh2uhvv"
+          },
+          {
+              "name": "J1 Xtra",
+              "url": "https://jenny.torontocast.com:2000/stream/J1XTRA"
+          }
+      ]
+  },
+  {
+      "category": "Anime Music",
+      "stations": [
+          {
+              "name": "Anime FM",
+              "url": "https://stream.laut.fm/animefm"
+          },
+          {
+              "name": "Anime Para Ti",
+              "url": "https://stream.zeno.fm/acnhrkt8c4duv"
+          },
+          {
+              "name": "Anime Radio de",
+              "url": "https://stream.animeradio.de/animeradio.aac"
+          },
+          {
+              "name": "Anime Tracks",
+              "url": "https://centova.listenon.in/proxy/animetracks/stream"
+          },
+          {
+              "name": "Anime Xtreme",
+              "url": "https://stream.zeno.fm/tqnyyz5r8neuv"
+          },
+          {
+              "name": "Anime Academy",
+              "url": "https://stream.laut.fm/animeacademy"
+          },
+          {
+              "name": "Baka Anime Radio",
+              "url": "http://janus.shoutca.st:8398/;"
+          },
+          {
+              "name": "I <3 Manga",
+              "url": "https://stream.laut.fm/iloveanimemanga"
+          },
+          {
+              "name": "Radio Animu Brazil",
+              "url": "https://cast.animu.com.br:9089/stream"
+          },
+          {
+              "name": "Stereo Anime",
+              "url": "https://radio.stereoanime.net/listen/stereoanime/128"
+          },
+          {
+              "name": "Yamato",
+              "url": "https://on.yamato.cl/radio/8010/play"
+          },
+          {
+              "name": "Yggdrasil Radio",
+              "url": "http://radio.shirayuki.org:9200/;"
+          },
+          {
+              "name": "Nei-Dis ACG Music",
+              "url": "http://neidi.homeip.net:8080/;"
+          },
+          {
+              "name": "FluffyLand RPG",
+              "url": "https://stream.laut.fm/fluffylandrpg"
+          }
+      ]
+  },
+  {
+      "category": "Devotional Music",
+      "stations": [
+          {
+              "name": "Bhakti radio",
+              "url": "https://stream.zeno.fm/ut3kgm1vsa0uv"
+          },
+          {
+              "name": "Bhakti Sagar",
+              "url": "https://stream-157.zeno.fm/syu0rdutvxhvv"
+          },
+          {
+              "name": "Osho Radio",
+              "url": "http://radioe.dns.osho.com:8348/live"
+          },
+          {
+              "name": "Bhajans Radio ",
+              "url": "https://s5.citrus3.com:8148/stream"
+          },
+          {
+              "name": "Classic Bhakti Sangeet",
+              "url": "https://stream.zeno.fm/epylmeu4zf7vv"
+          },
+          {
+              "name": "Bhakti Sagar FM",
+              "url": "https://stream.zeno.fm/lcida9v81nmvv"
+          },
+          {
+              "name": "Bhakti World - Bhagavad Gita",
+              "url": "https://stream.zeno.fm/ijklcild1wrtv"
+          },
+          {
+              "name": "Bhakti World - Devi Maa",
+              "url": "https://ibadat.out.airtime.pro:8000/ibadat_b"
+          },
+          {
+              "name": "Bhakti World - Shri Ganesha",
+              "url": "https://radio2bindia.out.airtime.pro:8000/radio2bindia_a"
+          },
+          {
+              "name": "Bhakti World - Gayatri Mantra",
+              "url": "https://stream.zeno.fm/503oro4ujkuuv"
+          },
+          {
+              "name": "Bhakti World - Gurbani",
+              "url": "https://gurbani.out.airtime.pro:8000/gurbani_b"
+          },
+          {
+              "name": "Bhakti World - Hanuman Ji",
+              "url": "https://stream.zeno.fm/d6s8u613038uv"
+          },
+          {
+              "name": "Bhakti World - Shri Krishna",
+              "url": "https://millenniumhits.out.airtime.pro:8000/millenniumhits_a"
+          },
+          {
+              "name": "Bhakti World - Meditation",
+              "url": "https://stream.zeno.fm/wnwi1nd5qudtv"
+          },
+          {
+              "name": "Bhakti World - Shanti Mantra",
+              "url": "https://stream.zeno.fm/ehmzrkjw9xtuv"
+          },
+          {
+              "name": "Bhakti World - Shri Ram",
+              "url": "https://dard.out.airtime.pro/dard_a"
+          },
+          {
+              "name": "Bhakti World - Sai Baba",
+              "url": "https://radio2bindia.out.airtime.pro/radio2bindia_a"
+          },
+          {
+              "name": "Bhakti World - Shiva Ji",
+              "url": "https://radio2bindia.out.airtime.pro/radio2bindia_a?_ga=2.203455766.763289185.16%2062805693-499518273.1568730566"
+          },
+          {
+              "name": "Hand of Jesus",
+              "url": "https://dc1.serverse.com/proxy/hojhindi/stream"
+          },
+          {
+              "name": "Satsang",
+              "url": "https://azura.shoutca.st/radio/8200/radio.mp3"
+          }
+      ]
+  },
+  {
+      "category": "Other than music",
+      "stations": [
+          {
+              "name": "Aaj Tak",
+              "url": "https://feeds.intoday.in/aajtak/api/master.m3u8"
+          },
+          {
+              "name": "IBC 24",
+              "url": "https://livetv.ibc24.in/livestream.m3u8"
+          },
+          {
+              "name": "CNN International",
+              "url": "https://tunein.cdnstream1.com/3519_96.aac"
+          },
+          {
+              "name": "Aljazeera",
+              "url": "https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/01.m3u8"
+          },
+          {
+              "name": "MSNBC",
+              "url": "http://stream1.skyviewnetworks.com:8010/MSNBC"
+          },
+          {
+              "name": "CSPAN RADIO",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3"
+          },
+          {
+              "name": "WNYC FM",
+              "url": "http://fm939.wnyc.org/wnycfm-tunein.aac"
+          },
+          {
+              "name": "WNYC AM",
+              "url": "http://njpr.wnyc.org/wnycam"
+          },
+          {
+              "name": "NPR",
+              "url": "https://npr-ice.streamguys1.com/live.aac.m3u"
+          },
+          {
+              "name": "CNN",
+              "url": "https://s3.amazonaws.com/cnn-assets/app-assets/cnn-lite/liteaudio.m3u8"
+          },
+          {
+              "name": "FOX News Talk",
+              "url": "https://streaming-ent.shoutcast.com/foxnews"
+          },
+          {
+              "name": "Talk KSFO",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"
+          },
+          {
+              "name": "WBAP News",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBAPAMAAC.aac"
+          },
+          {
+              "name": "77 WABC",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WABCAMAAC.aac"
+          },
+          {
+              "name": "CNN",
+              "url": "http://stream1.skyviewnetworks.com:8010/CNN"
+          },
+          {
+              "name": "CNNi",
+              "url": "http://stream1.skyviewnetworks.com:8010/CNNi"
+          },
+          {
+              "name": "FOX",
+              "url": "http://stream1.skyviewnetworks.com:8010/FOX"
+          },
+          {
+              "name": "HLN",
+              "url": "http://stream1.skyviewnetworks.com:8010/HLN"
+          },
+          {
+              "name": "710 WOR",
+              "url": "https://stream.revma.ihrhls.com/zc5874"
+          },
+          {
+              "name": "Wqxr",
+              "url": "https://stream.wqxr.org/wqxr-web"
+          },
+          {
+              "name": "977 comedy",
+              "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/977_COMEDY_SC"
+          },
+          {
+              "name": "181 comedy",
+              "url": "https://listen.181fm.com/181-comedy_128k.mp3"
+          },
+          {
+              "name": "247 comedy",
+              "url": "https://stream.revma.ihrhls.com/zc4902"
+          },
+          {
+              "name": "247 Comedy Legends",
+              "url": "http://stream.revma.ihrhls.com/zc7202"
+          },
+          {
+              "name": "247 Urban Comedy",
+              "url": "http://stream.revma.ihrhls.com/zc7207 "
+          },
+          {
+              "name": "ABC Sports",
+              "url": "https://live-radio02.mediahubaustralia.com/GSDW/mp3/"
+          }
+      ]
+  }
+]

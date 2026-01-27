@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "sources": [
+        {
+            "owner": "whoisYoges",
+            "repo": "lwalpapers",
+            "category": "Mix of everything",
+            "is_pro": false
+        },
+        {
+            "owner": "dharmx",
+            "repo": "walls",
+            "category": "Asthetic, Animated etc",
+            "is_pro": true
+        },
+        {
+            "owner": "D3Ext",
+            "repo": "aesthetic-wallpapers",
+            "category": "Asthetic",
+            "is_pro": true
+        },
+        {
+            "owner": "DenverCoder1",
+            "repo": "minimalistic-wallpaper-collection",
+            "category": "Minimalistic collection",
+            "is_pro": true
+        },
+        {
+            "owner": "JaKooLit",
+            "repo": "Wallpaper-Bank",
+            "category": "Mix of everything",
+            "is_pro": true
+        },
+        {
+            "owner": "mylinuxforwork",
+            "repo": "wallpaper",
+            "category": "Collection",
+            "is_pro": true
+        },
+        {
+            "owner": "makccr",
+            "repo": "Wallpaper-Bank",
+            "category": "Mix of everything",
+            "is_pro": true
+        },
+        {
+            "owner": "akash2061",
+            "repo": "Wallpapers",
+            "category": "Mix of everything",
+            "is_pro": true
+        },
+        {
+            "owner": "fr0st-iwnl",
+            "repo": "wallz",
+            "category": "Mix of everything",
+            "is_pro": true
+        }
+    ]
+}
