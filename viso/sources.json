@@ -11,49 +11,49 @@
             "owner": "dharmx",
             "repo": "walls",
             "category": "Asthetic, Animated etc",
-            "is_pro": true
+            "is_pro": false
         },
         {
             "owner": "D3Ext",
             "repo": "aesthetic-wallpapers",
-            "category": "Asthetic",
-            "is_pro": true
+            "category": "Asthetic wallpapers",
+            "is_pro": false
         },
         {
             "owner": "DenverCoder1",
             "repo": "minimalistic-wallpaper-collection",
             "category": "Minimalistic collection",
-            "is_pro": true
+            "is_pro": false
         },
         {
             "owner": "JaKooLit",
             "repo": "Wallpaper-Bank",
             "category": "Mix of everything",
-            "is_pro": true
+            "is_pro": false
         },
         {
             "owner": "mylinuxforwork",
             "repo": "wallpaper",
-            "category": "Collection",
-            "is_pro": true
+            "category": "Some collection",
+            "is_pro": false
         },
         {
             "owner": "makccr",
             "repo": "Wallpaper-Bank",
             "category": "Mix of everything",
-            "is_pro": true
+            "is_pro": false
         },
         {
             "owner": "akash2061",
             "repo": "Wallpapers",
             "category": "Mix of everything",
-            "is_pro": true
+            "is_pro": false
         },
         {
             "owner": "fr0st-iwnl",
             "repo": "wallz",
             "category": "Mix of everything",
-            "is_pro": true
+            "is_pro": false
         }
     ]
 }
