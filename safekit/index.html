@@ -13,7 +13,8 @@
     <nav class="navbar">
         <div class="container">
             <span class="brand">SAFEKIT</span>
-            <div class="links">
+            <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+            <div class="links" id="nav-links">
                 <a href="#about">Features</a>
                 <a href="#privacy">Privacy</a>
                 <a href="#terms">Terms</a>
@@ -134,7 +135,8 @@
 
             <h3>Contact Us</h3>
             <p>If you have questions regarding this Privacy Policy or your data rights, you can contact the developer at
-                <strong>vu.vcareforu@gmail.com</strong>.</p>
+                <strong>vu.vcareforu@gmail.com</strong>.
+            </p>
         </section>
 
 
@@ -388,6 +390,21 @@
 
             const dy2 = document.getElementById("dy2");
             if (dy2) dy2.textContent = formattedDate;
+
+            //Navigation
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Close menu when a link is clicked
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
 
         });
 

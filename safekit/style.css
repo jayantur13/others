@@ -45,6 +45,43 @@ body {
     font-weight: 600;
 }
 
+/* New Toggle Button Style */
+.menu-toggle {
+    display: none;
+    float: right;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+/* Updated Responsive Rules */
+@media (max-width: 768px) {
+    .menu-toggle { display: block; }
+
+    .links {
+        display: none; /* Hidden by default on mobile */
+        width: 100%;
+        float: none;
+        padding-top: 20px;
+        border-top: 1px solid var(--border-color);
+        margin-top: 15px;
+    }
+
+    .links.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links a {
+        margin: 10px 0;
+        font-size: 1.1rem;
+    }
+
+    h1 { font-size: 2.2rem; }
+}
+
 /* Hero */
 .hero {
     padding: 100px 0;
