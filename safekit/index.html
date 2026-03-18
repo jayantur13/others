@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeKit | Official Documentation & Privacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <span class="brand">SAFEKIT</span>
+            <div class="links">
+                <a href="#about">Features</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#licenses">Licenses</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Advanced Permission Audit & APK Extraction.</h1>
+            <p>SafeKit follows a <strong>Local-First design.</strong> All analysis happens directly on your device. We
+                do not operate servers that collect or store user data.</p>
+        </div>
+    </header>
+
+    <div class="container content-grid">
+
+        <section id="about" class="content-block">
+            <h2>System Utilities</h2>
+
+            <div class="list-item"><strong>Centralised Dashboard:</strong> Real-time system health overview, Quick
+                Actions, and Activity Insights.</div>
+
+            <div class="list-item"><strong>Risk-Aware App List:</strong> Complete inventory of installed apps
+                categorized by risk levels.</div>
+
+            <div class="list-item"><strong>Deep App Inspection:</strong> Risk scores (0-100), usage stats, metadata
+                analysis, and dangerous permission tracking.</div>
+
+            <div class="list-item"><strong>APK Extractor:</strong> Backup tool that allows users to save application APK
+                files to local storage.</div>
+
+            <div class="list-item"><strong>Permission Timeline:</strong> A historical change log of permission changes
+                detected on the device.</div>
+
+            <div class="list-item"><strong>Permission Dictionary:</strong> Educational resource explaining Android
+                system permissions.</div>
+
+            <div class="list-item"><strong>Automated Backups (Pro):</strong> Schedule and automate timeline data
+                backups.</div>
+
+            <div class="list-item"><strong>Live Notifier (Pro):</strong> Background monitoring that alerts users to
+                permission changes.</div>
+        </section>
+
+
+        <section id="privacy" class="content-block">
+
+            <h2>Privacy Policy</h2>
+
+            <p><strong>Last Updated:</strong> <span id="dy"></span></p>
+
+            <p>SafeKit is designed with a <strong>Zero-Server architecture</strong>. All diagnostic data and analysis
+                are stored locally on your device using a local SQLite database.</p>
+
+            <h3>Personal Data</h3>
+
+            <p>SafeKit does not collect personal information such as names, email addresses, contacts, photos, location
+                data, or files from the user's device.</p>
+
+            <p>All analysis is performed locally on the device and is not transmitted to external servers.</p>
+
+
+            <h3>Installed Applications Access</h3>
+
+            <p>SafeKit analyzes installed applications to provide insights about permissions and potential security
+                risks.</p>
+
+            <p>This analysis occurs entirely on the user's device and the installed app information is never transmitted
+                outside the device.</p>
+
+
+            <h3>Data Collection & Processing</h3>
+
+            <p><strong>Audit Data:</strong> App lists, permissions, and calculated risk scores remain strictly
+                on-device.</p>
+
+            <p><strong>APK Files:</strong> APK extraction is a local-to-local process that copies application packages
+                to user-selected storage.</p>
+
+
+            <h3>Sensitive Permissions</h3>
+
+            <p><code>QUERY_ALL_PACKAGES</code> is used to analyze installed applications and generate risk insights.</p>
+
+            <p><code>MANAGE_EXTERNAL_STORAGE</code> is used only to allow users to export APK backups to a chosen
+                storage directory.</p>
+
+
+            <h3>Third-Party Services</h3>
+
+            <p>SafeKit uses the following third-party services:</p>
+
+            <p><strong>Google AdMob:</strong> Used to display advertisements. AdMob may collect device identifiers and
+                usage data to provide personalized or contextual ads according to Google's advertising policies.</p>
+
+            <p><strong>Google Play Billing:</strong> Used to process in-app purchases securely.</p>
+
+
+            <h3>Global Compliance (GDPR / CCPA)</h3>
+
+            <div class="list-item"><strong>User Consent:</strong> Users may opt-in or opt-out of personalized ads.</div>
+
+            <div class="list-item"><strong>Access & Deletion:</strong> Users can remove all local data by clearing app
+                storage or uninstalling the application.</div>
+
+            <div class="list-item"><strong>No Sale of Data:</strong> SafeKit does not sell, rent, or trade user data.
+            </div>
+
+        </section>
+
+
+
+        <section id="terms" class="content-block">
+
+            <h2>Terms of Service</h2>
+
+            <p>SafeKit is a diagnostic and informational utility. The application provides insights about installed apps
+                and permissions but does not guarantee detection of all security threats.</p>
+
+
+            <h3>In-App Purchases</h3>
+
+            <p>SafeKit offers two optional premium tiers:</p>
+
+            <p><strong>Support the Dev</strong> — Monthly subscription.</p>
+
+            <p><strong>Lifetime Access</strong> — One-time purchase.</p>
+
+
+            <h3>Refund Policy</h3>
+
+            <p>All payments are processed through the app store platform.</p>
+
+            <p>Refund requests are handled according to the official refund policies of the store where the application
+                was purchased.</p>
+
+
+            <h3>Disclaimer</h3>
+
+            <p>SafeKit is provided for informational and diagnostic purposes. The developer is not responsible for
+                misuse of the APK extraction feature or issues caused by installing third-party APK files.</p>
+
+        </section>
+
+
+
+        <section id="licenses" class="content-block">
+
+            <h2>Open Source Libraries</h2>
+
+            <div class="license-box">
+
+                <p>
+                    <strong>Flutter SDK</strong> — BSD 3-Clause License
+                    <a href="https://github.com/flutter/flutter/blob/master/LICENSE" target="_blank">
+                        https://github.com/flutter/flutter/blob/master/LICENSE
+                    </a> or <a href="https://docs.flutter.dev/resources/licenses" target="_blank">
+                        https://docs.flutter.dev/resources/licenses
+                    </a>
+                </p>
+
+                <p>
+                    <strong>google_mobile_ads</strong> — Apache 2.0
+                    <a href="https://github.com/googleads/googleads-mobile-flutter/blob/main/LICENSE" target="_blank">
+                        https://github.com/googleads/googleads-mobile-flutter/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>connectivity_plus</strong> — BSD-3-Clause
+                    <a href="https://github.com/fluttercommunity/plus_plugins/blob/main/LICENSE" target="_blank">
+                        https://github.com/fluttercommunity/plus_plugins/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>shared_preferences</strong> — BSD-3-Clause
+                    <a href="https://github.com/flutter/packages/blob/main/packages/shared_preferences/shared_preferences/LICENSE"
+                        target="_blank">
+                        https://github.com/flutter/packages/blob/main/packages/shared_preferences/shared_preferences/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>url_launcher</strong> — BSD-3-Clause
+                    <a href="https://github.com/flutter/packages/blob/main/packages/url_launcher/url_launcher/LICENSE"
+                        target="_blank">
+                        https://github.com/flutter/packages/blob/main/packages/url_launcher/url_launcher/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>shimmer</strong> — BSD-3-Clause
+                    <a href="https://github.com/hnvn/flutter_shimmer/blob/master/LICENSE" target="_blank">
+                        https://github.com/hnvn/flutter_shimmer/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>adaptive_theme</strong> — MIT
+                    <a href="https://github.com/BirjuVachhani/adaptive_theme/blob/master/LICENSE" target="_blank">
+                        https://github.com/BirjuVachhani/adaptive_theme/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>flutter_device_apps</strong> — Apache 2.0
+                    <a href="https://github.com/g123k/flutter_plugin_device_apps/blob/master/LICENSE" target="_blank">
+                        https://github.com/g123k/flutter_plugin_device_apps/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>intl</strong> — BSD-3-Clause
+                    <a href="https://github.com/dart-lang/intl/blob/main/LICENSE" target="_blank">
+                        https://github.com/dart-lang/intl/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>smooth_counter</strong> — MIT
+                    <a href="https://github.com/amirhhashemi/smooth_counter/blob/master/LICENSE" target="_blank">
+                        https://github.com/amirhhashemi/smooth_counter/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>file_picker</strong> — BSD-3-Clause
+                    <a href="https://github.com/miguelpruivo/flutter_file_picker/blob/master/LICENSE" target="_blank">
+                        https://github.com/miguelpruivo/flutter_file_picker/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>timelines_plus</strong> — MIT
+                    <a href="https://github.com/sawin0/timelines_plus/blob/main/LICENSE" target="_blank">
+                        https://github.com/sawin0/timelines_plus/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>path_provider</strong> — BSD-3-Clause
+                    <a href="https://github.com/flutter/packages/blob/main/packages/path_provider/path_provider/LICENSE"
+                        target="_blank">
+                        https://github.com/flutter/packages/blob/main/packages/path_provider/path_provider/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>sqflite</strong> — MIT
+                    <a href="https://github.com/tekartik/sqflite/blob/master/LICENSE" target="_blank">
+                        https://github.com/tekartik/sqflite/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>path</strong> — BSD-3-Clause
+                    <a href="https://github.com/dart-lang/path/blob/master/LICENSE" target="_blank">
+                        https://github.com/dart-lang/path/blob/master/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>workmanager</strong> — MIT
+                    <a href="https://github.com/fluttercommunity/flutter_workmanager/blob/main/LICENSE" target="_blank">
+                        https://github.com/fluttercommunity/flutter_workmanager/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>awesome_notifications</strong> — MIT
+                    <a href="https://github.com/rafaelsetragni/awesome_notifications/blob/main/LICENSE" target="_blank">
+                        https://github.com/rafaelsetragni/awesome_notifications/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>envied</strong> — MIT
+                    <a href="https://github.com/petercinibulk/envied/blob/main/LICENSE" target="_blank">
+                        https://github.com/petercinibulk/envied/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>in_app_purchase</strong> — BSD-3-Clause
+                    <a href="https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/LICENSE"
+                        target="_blank">
+                        https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>package_info_plus</strong> — BSD-3-Clause
+                    <a href="https://github.com/fluttercommunity/plus_plugins/blob/main/LICENSE" target="_blank">
+                        https://github.com/fluttercommunity/plus_plugins/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>flutter_lints</strong> — BSD-3-Clause
+                    <a href="https://github.com/dart-lang/lints/blob/main/LICENSE" target="_blank">
+                        https://github.com/dart-lang/lints/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>envied_generator</strong> — MIT
+                    <a href="https://github.com/petercinibulk/envied/blob/main/LICENSE" target="_blank">
+                        https://github.com/petercinibulk/envied/blob/main/LICENSE
+                    </a>
+                </p>
+
+                <p>
+                    <strong>build_runner</strong> — BSD-3-Clause
+                    <a href="https://github.com/dart-lang/build/blob/master/LICENSE" target="_blank">
+                        https://github.com/dart-lang/build/blob/master/LICENSE
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>&copy; <span id="year"></span> SafeKit Project |
+                Last Updated <span id="dy2"></span> |
+                <a href="mailto:vu.vcareforu@gmail.com" style="text-decoration:none;">InfernoTech</a>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const today = new Date();
+
+            const formattedDate = today.toLocaleDateString('en-GB', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            });
+
+            const yearSpan = document.getElementById("year");
+            if (yearSpan) yearSpan.textContent = today.getFullYear();
+
+            const dy = document.getElementById("dy");
+            if (dy) dy.textContent = formattedDate;
+
+            const dy2 = document.getElementById("dy2");
+            if (dy2) dy2.textContent = formattedDate;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
