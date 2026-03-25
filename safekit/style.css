@@ -1,4 +1,8 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --black: #1a1a1a;
@@ -36,13 +40,62 @@ body {
     letter-spacing: -0.5px;
 }
 
-.links { float: right; }
+.links {
+    float: right;
+}
+
 .links a {
     text-decoration: none;
     color: var(--black);
     margin-left: 25px;
     font-size: 0.95rem;
     font-weight: 600;
+}
+
+/* FAQ Accordion Styling */
+.faq-item {
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 0;
+}
+
+.faq-item summary {
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+    /* Removes default arrow */
+    position: relative;
+    padding-right: 30px;
+}
+
+/* Custom indicator (+) */
+.faq-item summary::after {
+    content: '+';
+    position: absolute;
+    right: 5px;
+    color: var(--blue-accent);
+}
+
+/* Rotate indicator when open */
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+.faq-content {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    margin-top: 10px;
+    border-left: 3px solid var(--black);
+    font-size: 0.95rem;
+}
+
+.faq-content ul,
+.faq-content ol {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.faq-content li {
+    margin-bottom: 8px;
 }
 
 /* New Toggle Button Style */
@@ -58,10 +111,13 @@ body {
 
 /* Updated Responsive Rules */
 @media (max-width: 768px) {
-    .menu-toggle { display: block; }
+    .menu-toggle {
+        display: block;
+    }
 
     .links {
-        display: none; /* Hidden by default on mobile */
+        display: none;
+        /* Hidden by default on mobile */
         width: 100%;
         float: none;
         padding-top: 20px;
@@ -79,7 +135,9 @@ body {
         font-size: 1.1rem;
     }
 
-    h1 { font-size: 2.2rem; }
+    h1 {
+        font-size: 2.2rem;
+    }
 }
 
 /* Hero */
@@ -139,16 +197,21 @@ footer {
 }
 
 .license-box a {
-  color: #4da3ff;
-  text-decoration: none;
-  word-break: break-all;
+    color: #4da3ff;
+    text-decoration: none;
+    word-break: break-all;
 }
 
 .license-box a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 @media (max-width: 650px) {
-    .links { display: none; }
-    h1 { font-size: 2.2rem; }
+    .links {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
 }
