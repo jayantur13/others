@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ====================================================
+         SEO & METADATA (Play Store ASO Optimized)
+         ==================================================== -->
+    <title>GST Saral - Invoice Maker</title>
+    <meta name="description" content="Create GST invoices in 3 easy steps. Print, share, download, edit & manage invoices offline.">
+    <meta name="keywords" content="invoice maker, offline billing app, retail receipt generator, digital ledger, business utility india">
+    <meta name="author" content="Independent Utility Developer">
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="canonical" href="https://jayantur13.github.io/others/gstsaral">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jayantur13.github.io/others/gstsaral">
+    <meta property="og:title" content="GST Saral - Invoice Maker">
+    <meta property="og:description" content="Create GST invoices in 3 easy steps. Print, share, download, edit & manage invoices offline.">
+    <meta property="og:image" content="https://jayantur13.github.io/others/gstsaral/assets/og-preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jayantur13.github.io/others/gstsaral">
+    <meta property="twitter:title" content="GST Saral - Invoice Maker">
+    <meta property="twitter:description" content="Create GST invoices in 3 easy steps. Print, share, download, edit & manage invoices offline.">
+    <meta property="twitter:image" content="https://jayantur13.github.io/others/gstsaral/assets/og-preview.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Embedded Premium CSS (Material 3 Inspired, SaaS Aesthetic) -->
+    <style>
+        :root {
+            --primary: #2563EB;
+            --primary-light: #EFF6FF;
+            --secondary: #10B981;
+            --secondary-light: #ECFDF5;
+            --background: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text-main: #0F172A;
+            --text-muted: #64748B;
+            --border: #E2E8F0;
+            --radius: 16px;
+            --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 1px 2px -1px rgba(15, 23, 42, 0.03);
+            --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+            --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.04), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset & Base Typography */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; } /* Smooth jumping links */
+        body {
+            background-color: var(--background);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+        }
+
+        /* Layout Utilities */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .grid { display: grid; gap: 24px; }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+        @media (max-width: 992px) {
+            .grid-4 { grid-template-columns: repeat(2, 1fr); }
+            .grid-3 { grid-template-columns: repeat(2, 1fr); }
+            .grid-2 { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 640px) {
+            .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+        }
+
+        /* Section Boilerplate */
+        section { padding: 100px 0; }
+        .section-header {
+            text-align: center;
+            max-width: 640px;
+            margin: 0 auto 56px auto;
+        }
+        .section-header h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+        }
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        /* Buttons & Interactive Elements */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: var(--shadow-md);
+        }
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Premium Card base structure */
+        .card {
+            background-color: var(--card-bg);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        /* 1. STICKY NAVBAR WITH LINKS */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(248, 250, 252, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 700;
+            font-size: 1.2rem;
+            letter-spacing: -0.02em;
+        }
+        .brand-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; } /* Hide raw jump links on tiny viewports */
+        }
+
+        /* 2. HERO SECTION */
+        .hero { padding: 60px 0 100px 0; }
+        .hero-layout {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 64px;
+            align-items: center;
+        }
+        @media (max-width: 992px) {
+            .hero-layout { grid-template-columns: 1fr; text-align: center; gap: 48px; }
+            .hero-badges { justify-content: center; }
+        }
+        .hero-content h1 {
+            font-size: 3.25rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 32px;
+            max-width: 580px;
+        }
+        @media (max-width: 992px) { .hero-content p { margin: 0 auto 32px auto; } }
+        .hero-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+        .mockup-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .phone-mockup {
+            width: 280px;
+            height: 580px;
+            background-color: #1E293B;
+            border: 10px solid #0F172A;
+            border-radius: 36px;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .phone-notch {
+            width: 120px;
+            height: 25px;
+            background-color: #0F172A;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 14px;
+            z-index: 10;
+        }
+        .phone-screen-placeholder {
+            flex: 1;
+            background-color: var(--background);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            text-align: center;
+        }
+
+        /* 3. WHY CHOOSE THIS APP */
+        .why-card .icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .why-card.offline .icon { background-color: var(--primary-light); color: var(--primary); }
+        .why-card.fast .icon { background-color: var(--secondary-light); color: var(--secondary); }
+        .why-card.private .icon { background-color: #F1F5F9; color: #475569; }
+        .why-card.simple .icon { background-color: #FAF5FF; color: #9333EA; }
+        .why-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
+        .why-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* 4. HOW IT WORKS (Timeline Updates) */
+        .timeline-container {
+            position: relative;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 48px;
+            box-shadow: var(--shadow-sm);
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background-color: var(--border);
+            z-index: 1;
+        }
+        .timeline-step {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            flex: 1;
+        }
+        .step-number {
+            width: 48px;
+            height: 48px;
+            background-color: white;
+            border: 2px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin: 0 auto 16px auto;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+        .timeline-step.active .step-number {
+            border-color: var(--primary);
+            background-color: var(--primary);
+            color: white;
+        }
+        .timeline-step h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; }
+        .timeline-step p { color: var(--text-muted); font-size: 0.9rem; max-width: 180px; margin: 0 auto; }
+        @media (max-width: 768px) {
+            .timeline { flex-direction: column; gap: 32px; }
+            .timeline::before { display: none; }
+            .timeline-step p { max-width: 100%; }
+        }
+
+        /* 5. FEATURE GRID */
+        .feature-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        .feature-info h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+        .feature-info p { color: var(--text-muted); font-size: 0.88rem; }
+
+        /* 6. SCREENSHOTS SECTION */
+        .screenshot-grid {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 24px;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: thin;
+        }
+        .screenshot-placeholder {
+            flex: 0 0 260px;
+            height: 520px;
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 24px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+        .screenshot-img-area {
+            flex: 1;
+            background-color: var(--background);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            color: var(--text-muted);
+            font-size: 2rem;
+            border: 1px dashed var(--border);
+        }
+        .screenshot-placeholder h3 { font-size: 1rem; font-weight: 700; }
+
+        /* 7. HOW FREE VERSION WORKS */
+        .free-model-box {
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 48px;
+            box-shadow: var(--shadow-sm);
+        }
+        .info-strip {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            align-items: center;
+        }
+        @media (max-width: 992px) { .info-strip { grid-template-columns: 1fr; } }
+        .credit-card {
+            background-color: var(--primary-light);
+            border: 1px solid rgba(37, 99, 233, 0.1);
+            border-radius: 12px;
+            padding: 24px;
+        }
+        .credit-list {
+            list-style: none;
+            margin-top: 16px;
+        }
+        .credit-list li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .credit-list li i { color: var(--primary); }
+
+        /* 8. PRIVACY FIRST */
+        .privacy-banner {
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--radius);
+            padding: 56px;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 48px;
+            align-items: center;
+        }
+        @media (max-width: 992px) { .privacy-banner { grid-template-columns: 1fr; padding: 40px; } }
+        .privacy-banner h2 { font-size: 2.25rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 16px; }
+        .privacy-banner p { opacity: 0.9; margin-bottom: 24px; }
+        .privacy-badge-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        .p-badge {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 9. FAQ (Accordion) */
+        .faq-list {
+            max-width: 760px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .faq-item {
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .faq-trigger {
+            width: 100%;
+            padding: 20px 24px;
+            text-align: left;
+            background: none;
+            border: none;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-main);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .faq-trigger i {
+            transition: var(--transition);
+            color: var(--text-muted);
+        }
+        .faq-content {
+            padding: 0 24px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .faq-item.open .faq-trigger i { transform: rotate(180deg); }
+        .faq-item.open .faq-content { padding-bottom: 20px; max-height: 300px; }
+
+        /* 10. NO GRID UPDATED LEGAL STACK (Clean Vertical List) */
+        .legal-vertical-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .legal-box-simple {
+            background-color: #FFFFFF;
+            border-radius: var(--radius);
+            padding: 32px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+        .legal-box-simple h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .legal-box-simple p { 
+            font-size: 0.92rem; 
+            color: var(--text-muted); 
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .legal-box-simple p:last-child { margin-bottom: 0; }
+
+        /* 11. FOOTER */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 0;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        .footer-layout {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        @media (max-width: 640px) { .footer-layout { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+
+    <!-- 1. STICKY NAVBAR WITH HEADER JUMP LINKS -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <div class="brand-icon" aria-hidden="true">
+                    <i class="bi bi-receipt-cutoff"></i>
+                </div>
+                <span>GST Saral</span>
+            </a>
+            
+            <!-- Added Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tokens">Tokens</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#legal-documentation">Legal Rules</a></li>
+            </ul>
+
+            <a href="https://play.google.com/store/apps/details?id=com.infernotech.gstsaral&hl=en_IN" class="btn btn-primary btn-sm">
+                <i class="bi bi-google-play"></i> Get App
+            </a>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <header class="hero">
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <h1>Create Professional Sales Invoices in Under a Minute</h1>
+                <p>A lightweight, private mobile utility designed specifically for small Indian businesses and independent micro-retailers. Completely standalone, reliable, and functional anywhere.</p>
+                
+                <div class="hero-badges" role="list">
+                    <span class="badge"><i class="bi bi-cloud-slash text-primary"></i> 100% Offline Operation</span>
+                    <span class="badge"><i class="bi bi-translate text-primary"></i> English + हिंदी Support</span>
+                    <span class="badge"><i class="bi bi-file-earmark-pdf text-primary"></i> A4 & 80mm Thermal Spools</span>
+                    <span class="badge"><i class="bi bi-printer text-primary"></i> Direct Hardware Printing</span>
+                </div>
+
+                <a href="https://play.google.com/store/apps/details?id=com.infernotech.gstsaral&hl=en_IN" class="btn btn-primary btn-lg">
+                    <i class="bi bi-download"></i> Download Android Package
+                </a>
+            </div>
+
+            <div class="mockup-container" aria-hidden="true">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen-placeholder">
+                        <i class="bi bi-receipt text-primary" style="font-size: 3.5rem; margin-bottom: 16px;"></i>
+                        <div style="font-weight:700; margin-bottom:8px; font-size:1.1rem;">Quick Billing Screen</div>
+                        <div style="font-size:0.85rem; color:var(--text-muted);">Step 1: Details Entry Field</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. WHY CHOOSE THIS APP -->
+    <section style="background-color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Engineered for Ultimate Retail Speed</h2>
+                <p>Why waste time waiting for heavy web applications to buffer? Handle calculations instantly on your local device.</p>
+            </div>
+            <div class="grid grid-4">
+                <div class="card why-card offline">
+                    <div class="icon"><i class="bi bi-wifi-off"></i></div>
+                    <h3>Runs Without Cloud</h3>
+                    <p>Operate deep inside basement warehouses or rural markets without active cell towers.</p>
+                </div>
+                <div class="card why-card fast">
+                    <div class="icon"><i class="bi bi-lightning"></i></div>
+                    <h3>Instant Compilation</h3>
+                    <p>Native runtime compiling ensures local storage computations write in milliseconds.</p>
+                </div>
+                <div class="card why-card private">
+                    <div class="icon"><i class="bi bi-shield-shaded"></i></div>
+                    <h3>Absolute Data Privacy</h3>
+                    <p>No remote databases mean your transactional histories belong solely to your device storage.</p>
+                </div>
+                <div class="card why-card simple">
+                    <div class="icon"><i class="bi bi-layout-text-sidebar"></i></div>
+                    <h3>Zero Friction Flow</h3>
+                    <p>Skip onboarding hurdles. No registration phone cycles, verify layers, or password sheets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. HOW IT WORKS (Updated to strictly match standard app screens) -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Three Simple Steps to Bill</h2>
+                <p>An intuitive interface mapped carefully to match modern Material 3 design systems.</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-step active">
+                        <div class="step-number">1</div>
+                        <h3>Enter Details</h3>
+                        <p>Type in your business information and customer name on the screen.</p>
+                    </div>
+                    <div class="timeline-step active">
+                        <div class="step-number">2</div>
+                        <h3>Add Items</h3>
+                        <p>Select or type items from your inventory and add quantities easily.</p>
+                    </div>
+                    <div class="timeline-step active">
+                        <div class="step-number">3</div>
+                        <h3>Save & Print</h3>
+                        <p>Generate the invoice safely to local storage or print it instantly via Bluetooth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FEATURE GRID -->
+    <section id="features" style="background-color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive Utility Capabilities</h2>
+                <p>Everything required to dispatch business computations in an optimized mobile form factor.</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-grid-1x2"></i></div>
+                    <div class="feature-info"><h3>Invoice Dashboard</h3><p>Keep a chronological historical list matching previously registered operations directly inside internal application indexes.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-file-earmark-ruled"></i></div>
+                    <div class="feature-info"><h3>A4 Corporate PDF</h3><p>Generate highly structured documentation suitable for long-term storage records or B2B enterprise attachments.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-receipt"></i></div>
+                    <div class="feature-info"><h3>80mm Thermal Layout</h3><p>Output compact ticket variants optimized for instant wireless Bluetooth point-of-sale thermal spools.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-calculator"></i></div>
+                    <div class="feature-info"><h3>Automatic Tax Split</h3><p>The calculation engine intelligently breaks your tax configurations into proper standalone sub-sections instantly.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-search"></i></div>
+                    <div class="feature-info"><h3>HSN / SAC Finder</h3><p>Access a localized contextual registry look-up helper for commodity classifications effortlessly.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-share"></i></div>
+                    <div class="feature-info"><h3>Instant Share</h3><p>Transmit calculation metrics or document files via native Android share sheets seamlessly.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-pencil-square"></i></div>
+                    <div class="feature-info"><h3>History Adjustments</h3><p>Modify and edit ledger logs retroactively to correct computational typography mistakes quickly.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-trash3"></i></div>
+                    <div class="feature-info"><h3>Permanent Purge</h3><p>Completely drop records from your file block arrays with non-recoverable wiping procedures.</p></div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="bi bi-globe"></i></div>
+                    <div class="feature-info"><h3>Dual Vocabulary</h3><p>Alternate full tracking vocabularies and menu elements between clear English formats and local हिंदी text templates.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SCREENSHOTS PLACEHOLDERS -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Application Interface Walkthrough</h2>
+                <p>Preview the design layouts generated directly by our native UI development packages.</p>
+            </div>
+            <div class="screenshot-grid">
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-columns-gap"></i></div>
+                    <h3>Dashboard Overview</h3>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-person-vcard"></i></div>
+                    <h3>Business Profile</h3>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-box-seam"></i></div>
+                    <h3>Product Registry</h3>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-file-pdf"></i></div>
+                    <h3>Invoice Preview</h3>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-printer-fill"></i></div>
+                    <h3>Thermal Template</h3>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="screenshot-img-area"><i class="bi bi-sliders"></i></div>
+                    <h3>System Settings</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. HOW FREE VERSION WORKS -->
+    <section id="tokens" style="background-color: white;">
+        <div class="container">
+            <div class="free-model-box">
+                <div class="info-strip">
+                    <div>
+                        <h2 style="font-size:1.75rem; font-weight:800; margin-bottom:16px;">How the Free Model Operates Sustainable Utility</h2>
+                        <p style="color:var(--text-muted); margin-bottom:20px;">To ensure this operational utility stays free for vendors across India without subscription walls, we leverage a fair ad-supported token framework powered by Google AdMob rewarded features.</p>
+                        <p style="color:var(--text-muted);">Watching a single video asset unlocks calculation credits that allow you to modify or download document frameworks easily.</p>
+                    </div>
+                    <div class="credit-card">
+                        <h3 style="font-size:1.1rem; font-weight:700; color:var(--primary); margin-bottom:4px;">Token Matrix Rules</h3>
+                        <p style="font-size:0.85rem; color:var(--text-muted);">Fair Balance Tokens Usage</p>
+                        <ul class="credit-list">
+                            <li><i class="bi bi-plus-circle-fill"></i> <strong>1 Rewarded Video</strong> yields +4 Credits</li>
+                            <li><i class="bi bi-dash-circle-fill"></i> <strong>1 Credit consumed</strong> per fresh layout generate / download</li>
+                            <li><i class="bi bi-check-circle-fill text-success"></i> Printing, Plaintext Sharing, & Deletion are always <strong>100% Free</strong></li>
+                            <li><i class="bi bi-clock-history"></i> Tokens decay at a progressive rate of 1 token per 24 hours</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. PRIVACY FIRST -->
+    <section id="privacy">
+        <div class="container">
+            <div class="privacy-banner">
+                <div>
+                    <h2>Zero Network Telemetry. Absolute Confidentiality.</h2>
+                    <p>We deeply respect your business data rights. This application runs entirely inside your device sandbox memory space, eliminating data harvest risks.</p>
+                </div>
+                <div class="privacy-badge-grid">
+                    <div class="p-badge"><i class="bi bi-hdd-network"></i> On-Device Processing</div>
+                    <div class="p-badge"><i class="bi bi-person-x"></i> Zero Cloud Accounts</div>
+                    <div class="p-badge"><i class="bi bi-cloud-lightning-rain-slash"></i> No Server Database</div>
+                    <div class="p-badge"><i class="bi bi-eye-slash"></i> No Tracking SDKs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FAQ SECTION -->
+    <section style="background-color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Answered Queries</h2>
+                <p>Everything you need to know about our standalone business computing engine.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-trigger" onclick="toggleFaq(this)">
+                        <span>Does this application sync or transmit data to the Government GST Portal?</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <div class="faq-content">
+                        <p>No. This application is an entirely offline mathematical calculator tool. It does not communicate with the Goods and Services Tax Network (GSTN) or any government tax portal servers, and cannot file tax returns directly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" onclick="toggleFaq(this)">
+                        <span>Can I safely operate this billing layout utility without an active internet connection?</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <div class="faq-content">
+                        <p>Yes. All core functional computing matrices, file storage tables, and template generation paths reside on your device. Internet connectivity is only needed when loading rewarded video assets to refresh calculation tokens.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" onclick="toggleFaq(this)">
+                        <span>Where are my generated business files and client names stored?</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <div class="faq-content">
+                        <p>Your transaction data is saved directly to your local application directory using secure sandboxed local binary storage arrays. Wiping application data via system settings permanently clears all internal ledger entries.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" onclick="toggleFaq(this)">
+                        <span>Does the tool support structural output configurations tailored for small thermal hardware?</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <div class="faq-content">
+                        <p>Yes. The app provides built-in support for 80mm compact thermal paper receipt configurations, making it easy to share clean text logs through standard local system printing spools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. LEGAL & REGULATORY SECTIONS (Updated to Vertical Stack Layout - No Grid) -->
+    <section id="legal-documentation" aria-label="Legal Agreements">
+        <div class="container">
+            <div class="section-header">
+                <h2>Legal Guidelines & Privacy Rules</h2>
+                <p>Clear, simple, and transparent terms. No complex legal words used.</p>
+            </div>
+            
+            <!-- Updated from grid to a clean vertical list stack layout -->
+            <div class="legal-vertical-stack">
+                
+                <!-- Disclaimer Box -->
+                <div class="legal-box-simple">
+                    <h3><i class="bi bi-exclamation-triangle text-danger"></i> Official Disclaimer</h3>
+                    <p><strong>Not Linked to Government:</strong> This app is 100% private. We are NOT connected to the Government of India, the GST Network (GSTN), or any official tax authority.</p>
+                    <p><strong>Not Professional Advice:</strong> This app is just a mathematical calculator tool. It does not provide legal, tax, accounting, or financial advice. Please verify your bills with a professional Chartered Accountant (CA) before final use.</p>
+                </div>
+
+                <!-- Privacy Policy Box -->
+                <div class="legal-box-simple">
+                    <h3><i class="bi bi-shield-check text-success"></i> Privacy Policy</h3>
+                    <p><strong>Your Data is Safe:</strong> We do not ask for any sign-up, email, phone number, or account creation. There is no cloud sync and we do not have a centralized data server.</p>
+                    <p><strong>Zero Tracking:</strong> We do not track what you sell or collect client files. Everything stays on your own physical phone storage. This completely follows the rules of India's <strong>DPDPA (Digital Personal Data Protection) Act 2023</strong>.</p>
+                </div>
+
+                <!-- Terms of Service Box -->
+                <div class="legal-box-simple">
+                    <h3><i class="bi bi-file-text text-primary"></i> Terms of Service</h3>
+                    <p><strong>Usage Rules:</strong> This application is provided on an "as-is" basis. This means we are not responsible if your phone loses battery, gets corrupted, or if you type the wrong numbers inside your bills.</p>
+                    <p><strong>Token System:</strong> The reward credit tokens have no real-world cash value and cannot be exchanged for real money. You can earn them for free anytime by simply watching an advertisement inside the app.</p>
+                </div>
+
+                <!-- Open Source Licenses Box -->
+                <div class="legal-box-simple">
+                    <h3><i class="bi bi-code-slash text-dark"></i> Open Source Licenses</h3>
+                    <p><strong>Community Code:</strong> This application is built using open-source community packages (like Flutter and clean local storage solutions). All individual modules follow standard permissive open-source license agreements.</p>
+                    <p><strong>Fair Use:</strong> You can reuse independent snippets of code for learning or non-commercial local business operations under permissive terms.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer>
+        <div class="container footer-layout">
+            <div>
+                <p style="font-weight:700; color:var(--text-main); margin-bottom:4px;">GST Saral - Invoice Maker</p>
+                <p style="font-size:0.8rem;">Independent Business Computing Utilities for India.</p>
+            </div>
+            <div style="font-size:0.85rem; text-align:right;">
+                <p>Maintained Build Status: July 2026 Edition</p>
+                <p>Support Inquiries Channel: <a href="mailto:vu.vcareforu@gmail.com" style="color:var(--primary); text-decoration:none;">vu.vcareforu@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container" style="margin-top:24px; font-size:0.75rem; border-top:1px solid #F1F5F9; padding-top:16px; text-align:center;">
+            &copy; 2026 InfernoTech. Distributed via Permissive Mobile Framework License Architectures. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Vanilla Javascript Logic for Accordion Mechanics -->
+    <script>
+        function toggleFaq(trigger) {
+            const item = trigger.parentElement;
+            const isOpen = item.classList.contains('open');
+            
+            // Close all items
+            document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('open'));
+            
+            // If it wasn't open, open it
+            if (!isOpen) {
+                item.classList.add('open');
+            }
+        }
+    </script>
+</body>
+</html>

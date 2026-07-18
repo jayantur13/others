@@ -1,0 +1,787 @@
+{
+    "version": "2026.07.18",
+    "gstStateCodes": {
+        "01": "Jammu and Kashmir",
+        "02": "Himachal Pradesh",
+        "03": "Punjab",
+        "04": "Chandigarh",
+        "05": "Uttarakhand",
+        "06": "Haryana",
+        "07": "Delhi",
+        "08": "Rajasthan",
+        "09": "Uttar Pradesh",
+        "10": "Bihar",
+        "11": "Sikkim",
+        "12": "Arunachal Pradesh",
+        "13": "Nagaland",
+        "14": "Manipur",
+        "15": "Mizoram",
+        "16": "Tripura",
+        "17": "Meghalaya",
+        "18": "Assam",
+        "19": "West Bengal",
+        "20": "Jharkhand",
+        "21": "Odisha",
+        "22": "Chhattisgarh",
+        "23": "Madhya Pradesh",
+        "24": "Gujarat",
+        "26": "Dadra & Nagar Haveli and Daman & Diu",
+        "27": "Maharashtra",
+        "29": "Karnataka",
+        "30": "Goa",
+        "31": "Lakshadweep",
+        "32": "Kerala",
+        "33": "Tamil Nadu",
+        "34": "Puducherry",
+        "35": "Andaman and Nicobar Islands",
+        "36": "Telangana",
+        "37": "Andhra Pradesh",
+        "38": "Ladakh",
+        "97": "Other Territory",
+        "99": "Central Jurisdiction"
+    },
+    "hsnCategoryGroups": [
+        {
+            "chapterPrefixes": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+            ],
+            "englishTitle": "Grocery, Kirana, Food & Drinks",
+            "hindiTitle": "किराना, राशन, खाद्य पदार्थ और पेय",
+            "icon": "🛒"
+        },
+        {
+            "chapterPrefixes": [
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38"
+            ],
+            "englishTitle": "Medicines, Cosmetics & Hygiene/Soaps",
+            "hindiTitle": "दवाइयां, कॉस्मेटिक्स, साबुन और स्वच्छता उत्पाद",
+            "icon": "💊"
+        },
+        {
+            "chapterPrefixes": [
+                "25",
+                "26",
+                "27",
+                "68",
+                "69",
+                "70"
+            ],
+            "englishTitle": "Building Materials, Tiles, Stones & Cement",
+            "hindiTitle": "भवन निर्माण सामग्री, टाइल्स, पत्थर व सीमेंट",
+            "icon": "🪵"
+        },
+        {
+            "chapterPrefixes": [
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64",
+                "65",
+                "66",
+                "67"
+            ],
+            "englishTitle": "Textile, Readymade Garments & Footwear",
+            "hindiTitle": "कपड़े, रेडीमेड गारमेंट्स और जूते-चप्पल",
+            "icon": "👕"
+        },
+        {
+            "chapterPrefixes": [
+                "85"
+            ],
+            "englishTitle": "Mobiles, TVs, Gadgets & Electricals",
+            "hindiTitle": "मोबाइल, टीवी, इलेक्ट्रॉनिक्स और बिजली का सामान",
+            "icon": "🔌"
+        },
+        {
+            "chapterPrefixes": [
+                "84"
+            ],
+            "englishTitle": "Computers & Industrial Machinery",
+            "hindiTitle": "कंप्यूटर और बड़ी मशीनरी",
+            "icon": "💻"
+        },
+        {
+            "chapterPrefixes": [
+                "40",
+                "86",
+                "87",
+                "88",
+                "89"
+            ],
+            "englishTitle": "Automobiles, Tyres & Vehicle Parts",
+            "hindiTitle": "गाड़ियां, टायर और ऑटो पार्ट्स",
+            "icon": "🚗"
+        },
+        {
+            "chapterPrefixes": [
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77",
+                "78",
+                "79",
+                "80",
+                "81",
+                "82",
+                "83"
+            ],
+            "englishTitle": "Metals, Hardware & Hand Tools",
+            "hindiTitle": "लोहा, स्टील, धातुएं और हार्डवेयर टूल्स",
+            "icon": "⚙️"
+        },
+        {
+            "chapterPrefixes": [
+                "71",
+                "91",
+                "92",
+                "93"
+            ],
+            "englishTitle": "Jewellery, Gold, Silver & Watches",
+            "hindiTitle": "ज्वेलरी, सोना, चांदी और घड़ियां",
+            "icon": "👑"
+        },
+        {
+            "chapterPrefixes": [
+                "39",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "94",
+                "95",
+                "96"
+            ],
+            "englishTitle": "Furniture, Toys, Plastic & Stationery",
+            "hindiTitle": "फर्नीचर, खिलौने, plastic और स्टेशनरी",
+            "icon": "📦"
+        },
+        {
+            "chapterPrefixes": [
+                "99"
+            ],
+            "englishTitle": "Services, Labor, Consultancy & Repair (SAC)",
+            "hindiTitle": "सभी प्रकार की सेवाएं, लेबर और रिपेयरिंग",
+            "icon": "🛠️"
+        }
+    ],
+    "hsnSuggestions": [
+        {
+            "code": "0901",
+            "englishName": "Coffee, Tea & Spices",
+            "hindiName": "कॉफी, चाय और मसाले",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1008",
+            "englishName": "Millet & Buckwheat (No brand/Loose)",
+            "hindiName": "बाजरा और कुट्टू (खुला/बिना ब्रांड के)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1008",
+            "englishName": "Millet & Buckwheat (Pre-packaged/Labelled)",
+            "hindiName": "बाजरा और कुट्टू (पहले से पैक किया हुआ/ब्रांड के साथ )",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1004",
+            "englishName": "Oats (No brand/Loose)",
+            "hindiName": "ओट्स (खुला/बिना ब्रांड के)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1004",
+            "englishName": "Oats (Pre-packaged/Labelled)",
+            "hindiName": "ओट्स (पहले से पैक किया हुआ/ब्रांड के साथ )",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1005",
+            "englishName": "Maize [corn] (No brand/Loose)",
+            "hindiName": "मक्का (खुला/बिना ब्रांड के)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1005",
+            "englishName": "Maize [corn] (Pre-packaged/Labelled)",
+            "hindiName": "मक्का (पहले से पैक किया हुआ/ब्रांड के साथ )",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1701",
+            "englishName": "Sugar & Confectionery",
+            "hindiName": "चीनी और मिठाई",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1006",
+            "englishName": "Rice (All Variety: No Brand/Loose/Unpacked)",
+            "hindiName": "चावल (सभी प्रकार: खुला/बिना ब्रांड/बिना पैकिंग)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1006",
+            "englishName": "Rice (Pre-packaged & Labelled/Branded)",
+            "hindiName": "चावल (प्री-पैकेज्ड और ब्रांडेड/लेबल लगा हुआ)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1904",
+            "englishName": "Puffed Rice/Flaked Rice (Poha/Murmura - Loose)",
+            "hindiName": "पोहा, मुरमुरा, लाई (खुला/बिना ब्रांड)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1904",
+            "englishName": "Puffed Rice/Poha (Pre-packaged & Branded)",
+            "hindiName": "पोहा, मुरमुरा, लाई (प्री-पैकेज्ड और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1001",
+            "englishName": "Wheat Grain (No brand/Loose)",
+            "hindiName": "साबुत गेहूं के दाने (खुला/बिना पैकिंग)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1001",
+            "englishName": "Wheat Grain (Pre-packaged/Labelled)",
+            "hindiName": "साबुत गेहूं के दाने (पहले से पैक किया हुआ/ब्रांड के साथ )",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1001",
+            "englishName": "Wheat & Meslin (No brand/Loose)",
+            "hindiName": "गेहू और मेस्लिन (खुला/बिना ब्रांड के)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1001",
+            "englishName": "Wheat & Meslin (Pre-packaged/Labelled)",
+            "hindiName": "गेहू और मेस्लिन (पहले से पैक किया हुआ/ब्रांड के साथ )",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1101",
+            "englishName": "Wheat Flour/Atta (No Brand/Loose)",
+            "hindiName": "गेहूं का आटा (खुला/बिना ब्रांड)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1101",
+            "englishName": "Wheat Flour/Atta (Pre-packaged & Branded)",
+            "hindiName": "गेहूं का आटा/चक्की आटा (प्री-पैकेज्ड और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "1101",
+            "englishName": "Maida, Suji, Rawa (No brand/loose)",
+            "hindiName": "मैदा, सूजी, रवा (खुला/बिना ब्रांड)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1101",
+            "englishName": "Maida, Suji, Rawa (Pre-packaged & Branded)",
+            "hindiName": "मैदा, सूजी, रवा (प्री-पैकेज्ड और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "0713",
+            "englishName": "Pulses/Daal (All Variety: Loose/Unpacked)",
+            "hindiName": "साबुत व धुली दालें (सभी प्रकार: खुली/बिना पैकिंग)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "0713",
+            "englishName": "Pulses/Daal (Pre-packaged & Branded)",
+            "hindiName": "दालें (सभी प्रकार: प्री-पैकेज्ड और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "0401",
+            "englishName": "Fresh Milk & Pasteurized Milk (Unflavored)",
+            "hindiName": "ताजा दूध और पाश्चुरीकृत दूध (बिना फ्लेवर/पैकेट या खुला)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "0403",
+            "englishName": "Curd, Lassi, Butter Milk (Loose/Unbranded)",
+            "hindiName": "दही, लस्सी, छाछ (खुला/मिट्टी के बर्तन/बिना लेबल)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "0403",
+            "englishName": "Curd, Lassi, Butter Milk (Pre-packaged & Branded)",
+            "hindiName": "दही, लस्सी, छाछ (कप/पाउच पैकिंग और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "0406",
+            "englishName": "Paneer/Cottage Cheese (Loose/Fresh)",
+            "hindiName": "ताजा पनीर (खुला/बिना ब्रांड)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "0406",
+            "englishName": "Paneer/Cottage Cheese (Pre-packaged & Branded)",
+            "hindiName": "पनीर (वैक्यूम पैक/प्री-पैकेज्ड और ब्रांडेड)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "0405",
+            "englishName": "Butter & Ghee",
+            "hindiName": "मक्खन और शुद्ध घी (सभी ब्रांड)",
+            "defaultGst": 12.0,
+            "isProduct": true
+        },
+        {
+            "code": "0402",
+            "englishName": "Condensed Milk & Milk Powder",
+            "hindiName": "कंडेंस्ड मिल्क और मिल्क पाउडर",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "0910",
+            "englishName": "Turmeric, Coriander, Cumin Grains (Whole/Loose)",
+            "hindiName": "साबुत मसाले: हल्दी, धनिया, जीरा (खुला/बिना पिसा)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "0910",
+            "englishName": "Spices Powder (Packaged: Haldi, Mirch, Dhaniya)",
+            "hindiName": "पिसे हुए मसाले (पैकेट: हल्दी, मिर्च, धनिया पाउडर)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "2501",
+            "englishName": "Iodized Salt (Packaged/Branded Table Salt)",
+            "hindiName": "नमक (आयोडाइज्ड पैकेट/खाने वाला नमक)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1703",
+            "englishName": "Jaggery/Gur (Loose or Unbranded)",
+            "hindiName": "गुड़ / खांडसारी (खुला या बिना ब्रांड)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "1512",
+            "englishName": "Edible Cooking Oil (Mustard, Sunflower, Soyabean)",
+            "hindiName": "खाने का तेल (सरसों, सोयाबीन, सूरजमुखी तेल)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "2106",
+            "englishName": "Namkeen, Bhujia, Potato Chips & Snacks",
+            "hindiName": "नमकीन, भुजिया, आलू चिप्स और स्नैक्स पैकेट",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "1905",
+            "englishName": "Bakery Items (Biscuits, Rusk, Khari)",
+            "hindiName": "बेकरी सामान (बिस्कुट, रस, खारी)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "1905",
+            "englishName": "Fresh Bread (Plain/Unbranded)",
+            "hindiName": "ताजा ब्रेड (सादा/बिना टोस्ट किया हुआ)",
+            "defaultGst": 0.0,
+            "isProduct": true
+        },
+        {
+            "code": "3401",
+            "englishName": "Bath Soap Bar & Liquid Body Wash",
+            "hindiName": "नहाने का साबुन और लिक्विड बॉडी वॉश",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "3402",
+            "englishName": "Washing Powder, Detergent Bar & Liquid",
+            "hindiName": "कपड़े धोने का पाउडर, डिटर्जेंट बार और लिक्विड",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "3401",
+            "englishName": "Dishwash Bar, Gel & Kitchen Soap",
+            "hindiName": "बर्तन धोने का बार, जेल और लिक्विड साबुन",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "3306",
+            "englishName": "Toothpaste & Oral Care Products",
+            "hindiName": "टूथपेस्ट, मंजन और ओरल केयर सामान",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "2202",
+            "englishName": "Cold Drinks, Carbonated Soft Drinks & Soda",
+            "hindiName": "कोल्ड ड्रिंक्स, कार्बोनेटेड सॉफ्ट ड्रिंक्स और सोडा",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "2202",
+            "englishName": "Fruit Juices & Milk-Based Drinks (Packaged)",
+            "hindiName": "पैकेट फ्रूट जूस और मिल्क-बेस्ड ड्रिंक्स (जैसे मैंगो शेक)",
+            "defaultGst": 12.0,
+            "isProduct": true
+        },
+        {
+            "code": "2201",
+            "englishName": "Packaged Drinking Water (Mineral Water Bottles)",
+            "hindiName": "पैकेज्ड ड्रिंकिंग वॉटर (मिनरल वॉटर बोतलें)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "2005",
+            "englishName": "Potato Chips, Wafers & Crisps",
+            "hindiName": "आलू चिप्स, वेफर्स और कुरकुरे स्नैक्स",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "1806",
+            "englishName": "Chocolates & Cocoa-Based Confectionery",
+            "hindiName": "चॉकलेट और कोको-बेस्ड मीठे उत्पाद",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "2105",
+            "englishName": "Ice-Cream and Other Edible Ice",
+            "hindiName": "आइसक्रीम और कुल्फी (सभी प्रकार)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "1904",
+            "englishName": "Ready-to-Eat Popcorn (Packaged/Flavored)",
+            "hindiName": "रेडी-टू-ईट पॉपकॉर्न (पैकेट/फ्लेवर्ड)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "2106",
+            "englishName": "Sweets/Mithai (Packaged or Boxed)",
+            "hindiName": "डिब्बाबंद मिठाइयां (जैसे रसगुल्ला, काजू कतली बॉक्स)",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "3004",
+            "englishName": "Medicines/Pharmacy Items",
+            "hindiName": "दवाइयां/मेडिकल उत्पाद",
+            "defaultGst": 12.0,
+            "isProduct": true
+        },
+        {
+            "code": "3304",
+            "englishName": "Cosmetics & Skincare Products",
+            "hindiName": "सौंदर्य प्रसाधन और कॉस्मेटिक्स",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "2515",
+            "englishName": "Marble, Granite & Stones",
+            "hindiName": "मार्बल, ग्रेनाइट और पत्थर",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "2523",
+            "englishName": "Cement & Concrete Mixes",
+            "hindiName": "सीमेंट और कंक्रीट मिक्स",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "6907",
+            "englishName": "Ceramic Tiles & Vitrified Slabs",
+            "hindiName": "सिरेमिक और विट्रिफाइड टाइल्स",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "6109",
+            "englishName": "Readymade Apparels & T-Shirts",
+            "hindiName": "रेडीमेड कपड़े और टी-शर्ट",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "6403",
+            "englishName": "Footwear & Shoes",
+            "hindiName": "जूते-चप्पल और सैंडल",
+            "defaultGst": 12.0,
+            "isProduct": true
+        },
+        {
+            "code": "8517",
+            "englishName": "Smartphones & Network Modems",
+            "hindiName": "स्मार्टफोन और नेटवर्किंग डिवाइस",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "8528",
+            "englishName": "Televisions & Monitors",
+            "hindiName": "टीवी और मॉनिटर एलसीडी",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "8471",
+            "englishName": "Computers, Laptops & Printers",
+            "hindiName": "कंप्यूटर, लैपटॉप और प्रिंटर",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "4011",
+            "englishName": "Vehicle Tyres & Tubes (Car/Bike)",
+            "hindiName": "वाहनों के टायर और ट्यूब",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "4011",
+            "englishName": "Tyres and Tubes for Tractor",
+            "hindiName": "ट्रेक्टर के टायर और ट्यूब",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "4011",
+            "englishName": "Tyres and Tubes for Bicycle",
+            "hindiName": "साइकिल के टायर और ट्यूब",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "8708",
+            "englishName": "Parts & Accessories of Motor Vehicles (General)",
+            "hindiName": "मोटर वाहनों के स्पेयर पार्ट्स और एक्सेसरीज",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "8708",
+            "englishName": "Parts & Accessories of EV (Electric Vehicle)",
+            "hindiName": "इलेक्ट्रॉनिक गाड़ी के स्पेयर पार्ट्स और एक्सेसरीज",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "7208",
+            "englishName": "Iron & Steel Pipes/Structural Bars",
+            "hindiName": "लोहे और स्टील के पाइप/सरिया",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "8205",
+            "englishName": "Hand Tools & Hardware Wrenches",
+            "hindiName": "हस्तशिल्प और हार्डवेयर टूल्स",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "7113",
+            "englishName": "Gold/Silver Ornaments",
+            "hindiName": "सोने-चांदी के आभूषण और गहने",
+            "defaultGst": 3.0,
+            "isProduct": true
+        },
+        {
+            "code": "9403",
+            "englishName": "Wooden & Metal Furniture Items",
+            "hindiName": "लकड़ी और मेटल के फर्नीचर",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "4820",
+            "englishName": "Notebooks, Paper Books & Stationery",
+            "hindiName": "नोटबुक, कॉपियां और स्टेशनरी",
+            "defaultGst": 12.0,
+            "isProduct": true
+        },
+        {
+            "code": "9963",
+            "englishName": "Restaurant & Food Catering Services",
+            "hindiName": "रेस्टोरेंट और भोजन कैटरिंग सेवा",
+            "defaultGst": 5.0,
+            "isProduct": false
+        },
+        {
+            "code": "9954",
+            "englishName": "Construction & Building Contracting",
+            "hindiName": "भवन निर्माण और लेबर ठेकेदारी",
+            "defaultGst": 18.0,
+            "isProduct": false
+        },
+        {
+            "code": "9983",
+            "englishName": "Professional & IT Software Consulting",
+            "hindiName": "आईटी और सॉफ्टवेयर कंसल्टेंसी सेवाएं",
+            "defaultGst": 18.0,
+            "isProduct": false
+        },
+        {
+            "code": "9987",
+            "englishName": "Mechanical Repair & Maintenance Work",
+            "hindiName": "मैकेनिकल रिपेयर और मेंटेनेंस काम",
+            "defaultGst": 18.0,
+            "isProduct": false
+        },
+        {
+            "code": "4011",
+            "englishName": "Tyres and Tubes for Vehicles",
+            "hindiName": "गाड़ियों के टायर और ट्यूब",
+            "defaultGst": 28.0,
+            "isProduct": true
+        },
+        {
+            "code": "4011",
+            "englishName": "Tyres and Tubes for Tractor",
+            "hindiName": "ट्रेक्टर के टायर और ट्यूब",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "4011",
+            "englishName": "Tyres and Tubes for Bicycle",
+            "hindiName": "साइकिल के टायर और ट्यूब",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "8708",
+            "englishName": "Parts & Accessories of Motor Vehicles",
+            "hindiName": "मोटर वाहनों के स्पेयर पार्ट्स और एक्सेसरीज",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "8708",
+            "englishName": "Parts & Accessories of EV",
+            "hindiName": "इलेक्ट्रॉनिक गाडी के स्पेयर पार्ट्स और एक्सेसरीज",
+            "defaultGst": 5.0,
+            "isProduct": true
+        },
+        {
+            "code": "2106",
+            "englishName": "Any other grocery (Type Manually)",
+            "hindiName": "अन्य किराना उत्पाद (खुद नाम लिखें)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "9603",
+            "englishName": "Any other general item (Type Manually)",
+            "hindiName": "अन्य जनरल आइटम (खुद नाम लिखें)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        },
+        {
+            "code": "",
+            "englishName": "Custom Item (Type Manually)",
+            "hindiName": "अन्य वस्तु (खुद नाम व कोड लिखें)",
+            "defaultGst": 18.0,
+            "isProduct": true
+        }
+    ]
+}
